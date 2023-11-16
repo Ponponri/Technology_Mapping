@@ -1,0 +1,31 @@
+INV1
+Timing 0.28 0.72
+Power 20.92
+
+INV2
+Timing 1.03 2.64
+Power 1
+
+INV3
+Timing 0.47 1.20
+Power 2.75
+
+INV4
+Timing 0.82 2.10
+Power 19.25
+
+NAND1
+Timing 0.56 1.44
+Power 25.76
+
+NAND2
+Timing 2.31 5.95
+Power 1.4
+
+NAND3
+Timing 1.16 3.00
+Power 10.82
+
+NAND4
+Timing 1.79 4.61
+Power 25.38

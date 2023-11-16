@@ -1,0 +1,517 @@
+# Initial delay:102.200000
+# Original power:16690.720000
+# Optimized power:14759.680000
+INPUT(G1gat)
+INPUT(G8gat)
+INPUT(G15gat)
+INPUT(G22gat)
+INPUT(G29gat)
+INPUT(G36gat)
+INPUT(G43gat)
+INPUT(G50gat)
+INPUT(G57gat)
+INPUT(G64gat)
+INPUT(G71gat)
+INPUT(G78gat)
+INPUT(G85gat)
+INPUT(G92gat)
+INPUT(G99gat)
+INPUT(G106gat)
+INPUT(G113gat)
+INPUT(G120gat)
+INPUT(G127gat)
+INPUT(G134gat)
+INPUT(G141gat)
+INPUT(G148gat)
+INPUT(G155gat)
+INPUT(G162gat)
+INPUT(G169gat)
+INPUT(G176gat)
+INPUT(G183gat)
+INPUT(G190gat)
+INPUT(G197gat)
+INPUT(G204gat)
+INPUT(G211gat)
+INPUT(G218gat)
+INPUT(G225gat)
+INPUT(G226gat)
+INPUT(G227gat)
+INPUT(G228gat)
+INPUT(G229gat)
+INPUT(G230gat)
+INPUT(G231gat)
+INPUT(G232gat)
+INPUT(G233gat)
+OUTPUT(G1324gat)
+OUTPUT(G1325gat)
+OUTPUT(G1326gat)
+OUTPUT(G1327gat)
+OUTPUT(G1328gat)
+OUTPUT(G1329gat)
+OUTPUT(G1330gat)
+OUTPUT(G1331gat)
+OUTPUT(G1332gat)
+OUTPUT(G1333gat)
+OUTPUT(G1334gat)
+OUTPUT(G1335gat)
+OUTPUT(G1336gat)
+OUTPUT(G1337gat)
+OUTPUT(G1338gat)
+OUTPUT(G1339gat)
+OUTPUT(G1340gat)
+OUTPUT(G1341gat)
+OUTPUT(G1342gat)
+OUTPUT(G1343gat)
+OUTPUT(G1344gat)
+OUTPUT(G1345gat)
+OUTPUT(G1346gat)
+OUTPUT(G1347gat)
+OUTPUT(G1348gat)
+OUTPUT(G1349gat)
+OUTPUT(G1350gat)
+OUTPUT(G1351gat)
+OUTPUT(G1352gat)
+OUTPUT(G1353gat)
+OUTPUT(G1354gat)
+OUTPUT(G1355gat)
+n74_nand = NAND2(G1gat,G29gat) 		# 2.360000 
+n77_nand = NAND4(n75_nand,n76_nand) 		# 2.360000 
+n78_nand = NAND2(G57gat,G85gat) 		# 2.360000 
+n81_nand = NAND4(n79_nand,n80_nand) 		# 2.360000 
+n82_nand = NAND1(n77_nand,n81_nand) 		# 2.360000 
+n85_nand = NAND1(n83_nand,n84_nand) 		# 2.360000 
+n86_nand = NAND2(G225gat,G233gat) 		# 17.960000 
+n87_nand = NAND1(G113gat,G120gat) 		# 0.000000 
+n90_nand = NAND1(n88_nand,n89_nand) 		# 0.000000 
+n91_nand = NAND1(G127gat,G134gat) 		# 0.000000 
+n94_nand = NAND1(n92_nand,n93_nand) 		# 0.000000 
+n95_nand = NAND1(n90_nand,n94_nand) 		# 0.000000 
+n98_nand = NAND1(n96_nand,n97_nand) 		# 0.000000 
+n99_nand = NAND1(G141gat,G148gat) 		# 0.000000 
+n102_nand = NAND1(n100_nand,n101_nand) 		# 0.000000 
+n103_nand = NAND1(G155gat,G162gat) 		# 0.000000 
+n106_nand = NAND1(n104_nand,n105_nand) 		# 0.000000 
+n107_nand = NAND1(n102_nand,n106_nand) 		# 0.000000 
+n110_nand = NAND1(n108_nand,n109_nand) 		# 0.000000 
+n111_nand = NAND1(n98_nand,n110_nand) 		# 6.320000 
+n114_nand = NAND1(n112_nand,n113_nand) 		# 6.320000 
+n115_inv0 = INV2(n86_nand) 		# 17.960000 
+n115_nand = NAND1(n115_inv0,n114_nand) 		# 6.320000 
+n116_inv0 = INV2(n86_nand) 		# 21.400000 
+n116_nand = NAND1(n116_inv0,n115_nand) 		# 6.320000 
+n118_nand = NAND1(n116_nand,n117_nand) 		# 6.320000 
+n119_nand = NAND1(n85_nand,n118_nand) 		# 2.360000 
+n122_nand = NAND1(n120_nand,n121_nand) 		# 2.360000 
+n126_nand = NAND4(n124_nand,n125_nand) 		# 2.360000 
+n127_nand = NAND2(G169gat,G197gat) 		# 2.360000 
+n130_nand = NAND4(n128_nand,n129_nand) 		# 2.360000 
+n131_nand = NAND1(n126_nand,n130_nand) 		# 2.360000 
+n134_nand = NAND1(n132_nand,n133_nand) 		# 2.360000 
+n135_nand = NAND2(G229gat,G233gat) 		# 17.960000 
+n139_nand = NAND1(n137_nand,n138_nand) 		# 0.000000 
+n140_nand = NAND1(G15gat,G22gat) 		# 0.000000 
+n143_nand = NAND1(n141_nand,n142_nand) 		# 0.000000 
+n144_nand = NAND1(n139_nand,n143_nand) 		# 0.000000 
+n147_nand = NAND1(n145_nand,n146_nand) 		# 0.000000 
+n151_nand = NAND1(n149_nand,n150_nand) 		# 0.000000 
+n152_nand = NAND1(G43gat,G50gat) 		# 0.000000 
+n155_nand = NAND1(n153_nand,n154_nand) 		# 0.000000 
+n156_nand = NAND1(n151_nand,n155_nand) 		# 0.000000 
+n159_nand = NAND1(n157_nand,n158_nand) 		# 0.000000 
+n160_nand = NAND1(n147_nand,n159_nand) 		# 6.320000 
+n163_nand = NAND1(n161_nand,n162_nand) 		# 6.320000 
+n164_inv0 = INV2(n135_nand) 		# 17.960000 
+n164_nand = NAND1(n164_inv0,n163_nand) 		# 6.320000 
+n165_inv0 = INV2(n135_nand) 		# 21.400000 
+n165_nand = NAND1(n165_inv0,n164_nand) 		# 6.320000 
+n167_nand = NAND1(n165_nand,n166_nand) 		# 6.320000 
+n168_nand = NAND1(n134_nand,n167_nand) 		# 2.360000 
+n171_nand = NAND1(n169_nand,n170_nand) 		# 2.360000 
+n175_nand = NAND4(n173_nand,n174_nand) 		# 2.360000 
+n176_nand = NAND2(G176gat,G204gat) 		# 2.360000 
+n179_nand = NAND4(n177_nand,n178_nand) 		# 2.360000 
+n180_nand = NAND1(n175_nand,n179_nand) 		# 2.360000 
+n183_nand = NAND1(n181_nand,n182_nand) 		# 2.360000 
+n184_nand = NAND2(G230gat,G233gat) 		# 17.960000 
+n188_nand = NAND1(n186_nand,n187_nand) 		# 6.320000 
+n189_nand = NAND1(G71gat,G78gat) 		# 6.320000 
+n192_nand = NAND1(n190_nand,n191_nand) 		# 6.320000 
+n193_nand = NAND1(n188_nand,n192_nand) 		# 6.320000 
+n196_nand = NAND1(n194_nand,n195_nand) 		# 0.000000 
+n200_nand = NAND1(n198_nand,n199_nand) 		# 6.320000 
+n201_nand = NAND1(G99gat,G106gat) 		# 6.320000 
+n204_nand = NAND1(n202_nand,n203_nand) 		# 6.320000 
+n205_nand = NAND1(n200_nand,n204_nand) 		# 6.320000 
+n208_nand = NAND1(n206_nand,n207_nand) 		# 0.000000 
+n209_nand = NAND1(n196_nand,n208_nand) 		# 0.000000 
+n212_nand = NAND1(n210_nand,n211_nand) 		# 0.000000 
+n213_inv0 = INV2(n184_nand) 		# 17.960000 
+n213_nand = NAND1(n213_inv0,n212_nand) 		# 0.000000 
+n214_inv0 = INV2(n184_nand) 		# 21.400000 
+n214_nand = NAND1(n214_inv0,n213_nand) 		# 0.000000 
+n216_nand = NAND1(n214_nand,n215_nand) 		# 0.000000 
+n217_nand = NAND1(n183_nand,n216_nand) 		# 0.000000 
+n220_nand = NAND1(n218_nand,n219_nand) 		# 0.000000 
+n224_nand = NAND4(n222_nand,n223_nand) 		# 2.480000 
+n225_nand = NAND2(G183gat,G211gat) 		# 2.480000 
+n228_nand = NAND4(n226_nand,n227_nand) 		# 2.480000 
+n229_nand = NAND1(n224_nand,n228_nand) 		# 2.480000 
+n232_nand = NAND1(n230_nand,n231_nand) 		# 2.480000 
+n233_nand = NAND2(G231gat,G233gat) 		# 18.080000 
+n237_nand = NAND1(n235_nand,n236_nand) 		# 0.120000 
+n238_inv0 = INV2(n233_nand) 		# 18.080000 
+n238_nand = NAND1(n238_inv0,n237_nand) 		# 0.120000 
+n239_inv0 = INV2(n233_nand) 		# 21.520000 
+n239_nand = NAND1(n239_inv0,n238_nand) 		# 0.120000 
+n241_nand = NAND1(n239_nand,n240_nand) 		# 0.120000 
+n242_nand = NAND1(n232_nand,n241_nand) 		# 0.120000 
+n245_nand = NAND1(n243_nand,n244_nand) 		# 0.120000 
+n249_nand = NAND4(n247_nand,n248_nand) 		# 4.040000 
+n250_nand = NAND2(G190gat,G218gat) 		# 4.040000 
+n253_nand = NAND4(n251_nand,n252_nand) 		# 4.040000 
+n254_nand = NAND1(n249_nand,n253_nand) 		# 4.040000 
+n257_nand = NAND1(n255_nand,n256_nand) 		# 4.040000 
+n258_nand = NAND2(G232gat,G233gat) 		# 19.640000 
+n262_nand = NAND1(n260_nand,n261_nand) 		# 1.680000 
+n263_inv0 = INV2(n258_nand) 		# 19.640000 
+n263_nand = NAND1(n263_inv0,n262_nand) 		# 1.680000 
+n264_inv0 = INV2(n258_nand) 		# 23.080000 
+n264_nand = NAND1(n264_inv0,n263_nand) 		# 1.680000 
+n266_nand = NAND1(n264_nand,n265_nand) 		# 1.680000 
+n267_nand = NAND1(n257_nand,n266_nand) 		# 1.680000 
+n270_nand = NAND1(n268_nand,n269_nand) 		# 1.680000 
+n274_nand = NAND4(n272_nand,n273_nand) 		# 2.360000 
+n278_nand = NAND4(n276_nand,n277_nand) 		# 2.360000 
+n279_nand = NAND1(n274_nand,n278_nand) 		# 2.360000 
+n282_nand = NAND1(n280_nand,n281_nand) 		# 2.360000 
+n283_nand = NAND2(G226gat,G233gat) 		# 17.960000 
+n287_nand = NAND1(n285_nand,n286_nand) 		# 6.320000 
+n291_nand = NAND1(n289_nand,n290_nand) 		# 6.320000 
+n292_nand = NAND1(n287_nand,n291_nand) 		# 6.320000 
+n295_nand = NAND1(n293_nand,n294_nand) 		# 0.000000 
+n299_nand = NAND1(n297_nand,n298_nand) 		# 6.320000 
+n303_nand = NAND1(n301_nand,n302_nand) 		# 6.320000 
+n304_nand = NAND1(n299_nand,n303_nand) 		# 6.320000 
+n307_nand = NAND1(n305_nand,n306_nand) 		# 0.000000 
+n308_nand = NAND1(n295_nand,n307_nand) 		# 0.000000 
+n311_nand = NAND1(n309_nand,n310_nand) 		# 0.000000 
+n312_inv0 = INV2(n283_nand) 		# 17.960000 
+n312_nand = NAND1(n312_inv0,n311_nand) 		# 0.000000 
+n313_inv0 = INV2(n283_nand) 		# 21.400000 
+n313_nand = NAND1(n313_inv0,n312_nand) 		# 0.000000 
+n315_nand = NAND1(n313_nand,n314_nand) 		# 0.000000 
+n316_nand = NAND1(n282_nand,n315_nand) 		# 0.000000 
+n319_nand = NAND1(n317_nand,n318_nand) 		# 0.000000 
+n323_nand = NAND4(n321_nand,n322_nand) 		# 2.480000 
+n327_nand = NAND4(n325_nand,n326_nand) 		# 2.480000 
+n328_nand = NAND1(n323_nand,n327_nand) 		# 2.480000 
+n331_nand = NAND1(n329_nand,n330_nand) 		# 2.480000 
+n332_nand = NAND2(G227gat,G233gat) 		# 18.080000 
+n336_nand = NAND1(n334_nand,n335_nand) 		# 0.120000 
+n337_inv0 = INV2(n332_nand) 		# 18.080000 
+n337_nand = NAND1(n337_inv0,n336_nand) 		# 0.120000 
+n338_inv0 = INV2(n332_nand) 		# 21.520000 
+n338_nand = NAND1(n338_inv0,n337_nand) 		# 0.120000 
+n340_nand = NAND1(n338_nand,n339_nand) 		# 0.120000 
+n341_nand = NAND1(n331_nand,n340_nand) 		# 0.120000 
+n344_nand = NAND1(n342_nand,n343_nand) 		# 0.120000 
+n348_nand = NAND4(n346_nand,n347_nand) 		# 4.040000 
+n352_nand = NAND4(n350_nand,n351_nand) 		# 4.040000 
+n353_nand = NAND1(n348_nand,n352_nand) 		# 4.040000 
+n356_nand = NAND1(n354_nand,n355_nand) 		# 4.040000 
+n357_nand = NAND2(G228gat,G233gat) 		# 19.640000 
+n361_nand = NAND1(n359_nand,n360_nand) 		# 1.680000 
+n362_inv0 = INV2(n357_nand) 		# 19.640000 
+n362_nand = NAND1(n362_inv0,n361_nand) 		# 1.680000 
+n363_inv0 = INV2(n357_nand) 		# 23.080000 
+n363_nand = NAND1(n363_inv0,n362_nand) 		# 1.680000 
+n365_nand = NAND1(n363_nand,n364_nand) 		# 1.680000 
+n366_nand = NAND1(n356_nand,n365_nand) 		# 1.680000 
+n369_nand = NAND1(n367_nand,n368_nand) 		# 1.680000 
+n370_inv0 = INV1(n122_nand) 		# 3.800000 
+n370_inv1 = INV1(n319_nand) 		# 1.440000 
+n370_nand = NAND1(n370_inv0,n370_inv1) 		# 1.440000 
+n371_inv0 = INV1(n344_nand) 		# 1.560000 
+n371_inv1 = INV1(n370_nand) 		# 1.440000 
+n371_nand = NAND1(n371_inv0,n371_inv1) 		# 1.440000 
+n372_inv1 = INV1(n371_nand) 		# 1.440000 
+n372_nand = NAND1(n369_nand,n372_inv1) 		# 1.440000 
+n373_inv1 = INV1(n370_nand) 		# 1.440000 
+n374_inv0 = INV1(n369_nand) 		# 1.680000 
+n374_inv1 = INV1(n373_nand) 		# 1.440000 
+n374_nand = NAND1(n374_inv0,n374_inv1) 		# 1.440000 
+n375_inv0 = INV1(n122_nand) 		# 2.360000 
+n375_nand = NAND1(n375_inv0,n319_nand) 		# 1.000000 
+n376_inv0 = INV1(n344_nand) 		# 0.120000 
+n376_inv1 = INV1(n375_nand) 		# 1.000000 
+n376_nand = NAND1(n376_inv0,n376_inv1) 		# 0.120000 
+n377_inv0 = INV1(n369_nand) 		# 1.680000 
+n377_inv1 = INV1(n376_nand) 		# 0.120000 
+n377_nand = NAND1(n377_inv0,n377_inv1) 		# 0.120000 
+n378_inv1 = INV1(n319_nand) 		# 0.000000 
+n379_inv0 = INV1(n344_nand) 		# 0.120000 
+n379_inv1 = INV1(n378_nand) 		# 0.000000 
+n379_nand = NAND1(n379_inv0,n379_inv1) 		# 0.000000 
+n380_inv0 = INV1(n369_nand) 		# 1.680000 
+n380_inv1 = INV1(n379_nand) 		# 0.000000 
+n380_nand = NAND1(n380_inv0,n380_inv1) 		# 0.000000 
+n381_nand = NAND1(n377_nand,n380_nand) 		# 0.000000 
+n382_nand = NAND1(n372_nand,n374_nand) 		# 1.440000 
+n383_inv0 = INV1(n381_nand) 		# 0.000000 
+n383_inv1 = INV1(n382_nand) 		# 1.440000 
+n383_nand = NAND1(n383_inv0,n383_inv1) 		# 0.000000 
+n384_inv1 = INV1(n220_nand) 		# 0.000000 
+n384_nand = NAND1(n171_nand,n384_inv1) 		# 0.000000 
+n385_inv1 = INV2(n384_nand) 		# 3.690000 
+n385_nand = NAND4(n245_nand,n385_inv1) 		# 3.690000 
+n386_inv0 = INV2(n270_nand) 		# 8.330000 
+n386_inv1 = INV1(n385_nand) 		# 3.690000 
+n386_nand = NAND1(n386_inv0,n386_inv1) 		# 3.690000 
+n387_inv1 = INV1(n386_nand) 		# 3.690000 
+n387_nand = NAND1(n383_nand,n387_inv1) 		# 1.000000 
+n388_inv1 = INV1(n387_nand) 		# 1.000000 
+n389_inv1 = INV1(n388_nand) 		# 1.000000 
+n391_inv0 = INV1(n388_nand) 		# 4.440000 
+n391_nand = NAND1(n391_inv0,n389_nand) 		# 1.000000 
+n392_nand = NAND1(n390_nand,n391_nand) 		# 1.000000 
+n393_inv1 = INV1(n387_nand) 		# 1.000000 
+n394_inv1 = INV1(n393_nand) 		# 1.000000 
+n396_inv0 = INV1(n393_nand) 		# 4.440000 
+n396_nand = NAND1(n396_inv0,n394_nand) 		# 1.000000 
+n397_nand = NAND1(n395_nand,n396_nand) 		# 1.000000 
+n398_inv1 = INV1(n387_nand) 		# 1.000000 
+n399_inv1 = INV1(n398_nand) 		# 1.000000 
+n401_inv0 = INV1(n398_nand) 		# 4.440000 
+n401_nand = NAND1(n401_inv0,n399_nand) 		# 1.000000 
+n402_nand = NAND1(n400_nand,n401_nand) 		# 1.000000 
+n403_inv1 = INV1(n387_nand) 		# 1.000000 
+n404_inv1 = INV1(n403_nand) 		# 1.000000 
+n406_inv0 = INV1(n403_nand) 		# 4.440000 
+n406_nand = NAND1(n406_inv0,n404_nand) 		# 1.000000 
+n407_nand = NAND1(n405_nand,n406_nand) 		# 1.000000 
+n408_inv0 = INV1(n245_nand) 		# 0.120000 
+n408_inv1 = INV1(n384_nand) 		# 0.000000 
+n408_nand = NAND1(n408_inv0,n408_inv1) 		# 0.000000 
+n409_inv1 = INV2(n408_nand) 		# 2.250000 
+n410_inv1 = INV1(n409_nand) 		# 0.000000 
+n411_inv1 = INV1(n410_nand) 		# 0.000000 
+n412_inv1 = INV1(n411_nand) 		# 0.000000 
+n414_inv0 = INV1(n411_nand) 		# 3.440000 
+n414_nand = NAND1(n414_inv0,n412_nand) 		# 0.000000 
+n415_nand = NAND1(n413_nand,n414_nand) 		# 0.000000 
+n416_inv1 = INV1(n410_nand) 		# 0.000000 
+n417_inv1 = INV1(n416_nand) 		# 0.000000 
+n419_inv0 = INV1(n416_nand) 		# 3.440000 
+n419_nand = NAND1(n419_inv0,n417_nand) 		# 0.000000 
+n420_nand = NAND1(n418_nand,n419_nand) 		# 0.000000 
+n421_inv1 = INV1(n410_nand) 		# 0.000000 
+n422_inv1 = INV1(n421_nand) 		# 0.000000 
+n424_inv0 = INV1(n421_nand) 		# 3.440000 
+n424_nand = NAND1(n424_inv0,n422_nand) 		# 0.000000 
+n425_nand = NAND1(n423_nand,n424_nand) 		# 0.000000 
+n426_inv1 = INV1(n410_nand) 		# 0.000000 
+n427_inv1 = INV1(n426_nand) 		# 0.000000 
+n429_inv0 = INV1(n426_nand) 		# 3.440000 
+n429_nand = NAND1(n429_inv0,n427_nand) 		# 0.000000 
+n430_nand = NAND1(n428_nand,n429_nand) 		# 0.000000 
+n431_inv0 = INV1(n171_nand) 		# 2.360000 
+n431_nand = NAND1(n431_inv0,n220_nand) 		# 1.000000 
+n432_inv1 = INV2(n431_nand) 		# 3.810000 
+n433_inv0 = INV2(n270_nand) 		# 8.330000 
+n433_inv1 = INV1(n432_nand) 		# 3.810000 
+n433_nand = NAND1(n433_inv0,n433_inv1) 		# 3.810000 
+n434_inv1 = INV1(n433_nand) 		# 0.000000 
+n435_inv1 = INV1(n434_nand) 		# 0.000000 
+n436_inv1 = INV1(n435_nand) 		# 0.000000 
+n438_inv0 = INV1(n435_nand) 		# 3.440000 
+n438_nand = NAND1(n438_inv0,n436_nand) 		# 0.000000 
+n439_nand = NAND1(n437_nand,n438_nand) 		# 0.000000 
+n440_inv1 = INV1(n434_nand) 		# 0.000000 
+n441_inv1 = INV1(n440_nand) 		# 0.000000 
+n443_inv0 = INV1(n440_nand) 		# 3.440000 
+n443_nand = NAND1(n443_inv0,n441_nand) 		# 0.000000 
+n444_nand = NAND1(n442_nand,n443_nand) 		# 0.000000 
+n445_inv1 = INV1(n434_nand) 		# 0.000000 
+n446_inv1 = INV1(n445_nand) 		# 0.000000 
+n448_inv0 = INV1(n445_nand) 		# 3.440000 
+n448_nand = NAND1(n448_inv0,n446_nand) 		# 0.000000 
+n449_nand = NAND1(n447_nand,n448_nand) 		# 0.000000 
+n450_inv1 = INV1(n434_nand) 		# 0.000000 
+n451_inv1 = INV1(n450_nand) 		# 0.000000 
+n453_inv0 = INV1(n450_nand) 		# 3.440000 
+n453_nand = NAND1(n453_inv0,n451_nand) 		# 0.000000 
+n454_nand = NAND1(n452_nand,n453_nand) 		# 0.000000 
+n455_inv0 = INV1(n245_nand) 		# 0.120000 
+n455_inv1 = INV1(n431_nand) 		# 1.000000 
+n455_nand = NAND1(n455_inv0,n455_inv1) 		# 0.120000 
+n456_inv1 = INV2(n455_nand) 		# 2.370000 
+n457_inv1 = INV1(n456_nand) 		# 0.000000 
+n458_inv1 = INV1(n457_nand) 		# 0.000000 
+n459_inv1 = INV1(n458_nand) 		# 0.000000 
+n461_inv0 = INV1(n458_nand) 		# 3.440000 
+n461_nand = NAND1(n461_inv0,n459_nand) 		# 0.000000 
+n462_nand = NAND1(n460_nand,n461_nand) 		# 0.000000 
+n463_inv1 = INV1(n457_nand) 		# 0.000000 
+n464_inv1 = INV1(n463_nand) 		# 0.000000 
+n466_inv0 = INV1(n463_nand) 		# 3.440000 
+n466_nand = NAND1(n466_inv0,n464_nand) 		# 0.000000 
+n467_nand = NAND1(n465_nand,n466_nand) 		# 0.000000 
+n468_inv1 = INV1(n457_nand) 		# 0.000000 
+n469_inv1 = INV1(n468_nand) 		# 0.000000 
+n471_inv0 = INV1(n468_nand) 		# 3.440000 
+n471_nand = NAND1(n471_inv0,n469_nand) 		# 0.000000 
+n472_nand = NAND1(n470_nand,n471_nand) 		# 0.000000 
+n473_inv1 = INV1(n457_nand) 		# 0.000000 
+n474_inv1 = INV1(n473_nand) 		# 0.000000 
+n476_inv0 = INV1(n473_nand) 		# 3.440000 
+n476_nand = NAND1(n476_inv0,n474_nand) 		# 0.000000 
+n477_nand = NAND1(n475_nand,n476_nand) 		# 0.000000 
+n478_inv0 = INV1(n171_nand) 		# 3.800000 
+n478_inv1 = INV1(n220_nand) 		# 1.440000 
+n478_nand = NAND1(n478_inv0,n478_inv1) 		# 1.440000 
+n479_inv0 = INV1(n245_nand) 		# 1.560000 
+n479_inv1 = INV1(n478_nand) 		# 1.440000 
+n479_nand = NAND1(n479_inv0,n479_inv1) 		# 1.440000 
+n480_inv1 = INV1(n479_nand) 		# 1.440000 
+n481_inv1 = INV1(n478_nand) 		# 1.440000 
+n482_inv0 = INV1(n270_nand) 		# 1.680000 
+n482_inv1 = INV1(n481_nand) 		# 1.440000 
+n482_nand = NAND1(n482_inv0,n482_inv1) 		# 1.440000 
+n483_inv0 = INV1(n270_nand) 		# 1.680000 
+n483_inv1 = INV1(n455_nand) 		# 0.120000 
+n483_nand = NAND1(n483_inv0,n483_inv1) 		# 0.120000 
+n484_inv0 = INV1(n270_nand) 		# 1.680000 
+n484_inv1 = INV1(n408_nand) 		# 0.000000 
+n484_nand = NAND1(n484_inv0,n484_inv1) 		# 0.000000 
+n485_nand = NAND1(n483_nand,n484_nand) 		# 0.000000 
+n486_nand = NAND1(n480_nand,n482_nand) 		# 1.440000 
+n487_inv0 = INV1(n485_nand) 		# 0.000000 
+n487_inv1 = INV1(n486_nand) 		# 1.440000 
+n487_nand = NAND1(n487_inv0,n487_inv1) 		# 0.000000 
+n488_inv1 = INV2(n378_nand) 		# 3.690000 
+n489_inv0 = INV2(n369_nand) 		# 8.330000 
+n489_inv1 = INV1(n488_nand) 		# 3.690000 
+n489_nand = NAND1(n489_inv0,n489_inv1) 		# 3.690000 
+n490_inv1 = INV1(n489_nand) 		# 3.690000 
+n490_nand = NAND1(n487_nand,n490_inv1) 		# 1.000000 
+n491_inv1 = INV1(n490_nand) 		# 1.000000 
+n492_inv1 = INV1(n491_nand) 		# 1.000000 
+n494_inv0 = INV1(n491_nand) 		# 4.440000 
+n494_nand = NAND1(n494_inv0,n492_nand) 		# 1.000000 
+n495_nand = NAND1(n493_nand,n494_nand) 		# 1.000000 
+n496_inv1 = INV1(n490_nand) 		# 1.000000 
+n497_inv1 = INV1(n496_nand) 		# 1.000000 
+n499_inv0 = INV1(n496_nand) 		# 4.440000 
+n499_nand = NAND1(n499_inv0,n497_nand) 		# 1.000000 
+n500_nand = NAND1(n498_nand,n499_nand) 		# 1.000000 
+n501_inv1 = INV1(n490_nand) 		# 1.000000 
+n502_inv1 = INV1(n501_nand) 		# 1.000000 
+n504_inv0 = INV1(n501_nand) 		# 4.440000 
+n504_nand = NAND1(n504_inv0,n502_nand) 		# 1.000000 
+n505_nand = NAND1(n503_nand,n504_nand) 		# 1.000000 
+n506_inv1 = INV1(n490_nand) 		# 1.000000 
+n507_inv1 = INV1(n506_nand) 		# 1.000000 
+n509_inv0 = INV1(n506_nand) 		# 4.440000 
+n509_nand = NAND1(n509_inv0,n507_nand) 		# 1.000000 
+n510_nand = NAND1(n508_nand,n509_nand) 		# 1.000000 
+n511_inv1 = INV2(n379_nand) 		# 2.250000 
+n512_inv1 = INV1(n511_nand) 		# 0.000000 
+n513_inv1 = INV1(n512_nand) 		# 0.000000 
+n514_inv1 = INV1(n513_nand) 		# 0.000000 
+n516_inv0 = INV1(n513_nand) 		# 3.440000 
+n516_nand = NAND1(n516_inv0,n514_nand) 		# 0.000000 
+n517_nand = NAND1(n515_nand,n516_nand) 		# 0.000000 
+n518_inv1 = INV1(n512_nand) 		# 0.000000 
+n519_inv1 = INV1(n518_nand) 		# 0.000000 
+n521_inv0 = INV1(n518_nand) 		# 3.440000 
+n521_nand = NAND1(n521_inv0,n519_nand) 		# 0.000000 
+n522_nand = NAND1(n520_nand,n521_nand) 		# 0.000000 
+n523_inv1 = INV1(n512_nand) 		# 0.000000 
+n524_inv1 = INV1(n523_nand) 		# 0.000000 
+n526_inv0 = INV1(n523_nand) 		# 3.440000 
+n526_nand = NAND1(n526_inv0,n524_nand) 		# 0.000000 
+n527_nand = NAND1(n525_nand,n526_nand) 		# 0.000000 
+n528_inv1 = INV1(n512_nand) 		# 0.000000 
+n529_inv1 = INV1(n528_nand) 		# 0.000000 
+n531_inv0 = INV1(n528_nand) 		# 3.440000 
+n531_nand = NAND1(n531_inv0,n529_nand) 		# 0.000000 
+n532_nand = NAND1(n530_nand,n531_nand) 		# 0.000000 
+n533_inv1 = INV2(n375_nand) 		# 3.810000 
+n534_inv0 = INV2(n369_nand) 		# 8.330000 
+n534_inv1 = INV1(n533_nand) 		# 3.810000 
+n534_nand = NAND1(n534_inv0,n534_inv1) 		# 3.810000 
+n535_inv1 = INV1(n534_nand) 		# 0.000000 
+n536_inv1 = INV1(n535_nand) 		# 0.000000 
+n537_inv1 = INV1(n536_nand) 		# 0.000000 
+n539_inv0 = INV1(n536_nand) 		# 3.440000 
+n539_nand = NAND1(n539_inv0,n537_nand) 		# 0.000000 
+n540_nand = NAND1(n538_nand,n539_nand) 		# 0.000000 
+n541_inv1 = INV1(n535_nand) 		# 0.000000 
+n542_inv1 = INV1(n541_nand) 		# 0.000000 
+n544_inv0 = INV1(n541_nand) 		# 3.440000 
+n544_nand = NAND1(n544_inv0,n542_nand) 		# 0.000000 
+n545_nand = NAND1(n543_nand,n544_nand) 		# 0.000000 
+n546_inv1 = INV1(n535_nand) 		# 0.000000 
+n547_inv1 = INV1(n546_nand) 		# 0.000000 
+n549_inv0 = INV1(n546_nand) 		# 3.440000 
+n549_nand = NAND1(n549_inv0,n547_nand) 		# 0.000000 
+n550_nand = NAND1(n548_nand,n549_nand) 		# 0.000000 
+n551_inv1 = INV1(n535_nand) 		# 0.000000 
+n552_inv1 = INV1(n551_nand) 		# 0.000000 
+n554_inv0 = INV1(n551_nand) 		# 3.440000 
+n554_nand = NAND1(n554_inv0,n552_nand) 		# 0.000000 
+n555_nand = NAND1(n553_nand,n554_nand) 		# 0.000000 
+n556_inv1 = INV2(n376_nand) 		# 2.370000 
+n557_inv1 = INV1(n556_nand) 		# 0.000000 
+n558_inv1 = INV1(n557_nand) 		# 0.000000 
+n559_inv1 = INV1(n558_nand) 		# 0.000000 
+n561_inv0 = INV1(n558_nand) 		# 3.440000 
+n561_nand = NAND1(n561_inv0,n559_nand) 		# 0.000000 
+n562_nand = NAND1(n560_nand,n561_nand) 		# 0.000000 
+n563_inv1 = INV1(n557_nand) 		# 0.000000 
+n564_inv1 = INV1(n563_nand) 		# 0.000000 
+n566_inv0 = INV1(n563_nand) 		# 3.440000 
+n566_nand = NAND1(n566_inv0,n564_nand) 		# 0.000000 
+n567_nand = NAND1(n565_nand,n566_nand) 		# 0.000000 
+n568_inv1 = INV1(n557_nand) 		# 0.000000 
+n569_inv1 = INV1(n568_nand) 		# 0.000000 
+n571_inv0 = INV1(n568_nand) 		# 3.440000 
+n571_nand = NAND1(n571_inv0,n569_nand) 		# 0.000000 
+n572_nand = NAND1(n570_nand,n571_nand) 		# 0.000000 
+n573_inv1 = INV1(n557_nand) 		# 0.000000 
+n574_inv1 = INV1(n573_nand) 		# 0.000000 
+n576_inv0 = INV1(n573_nand) 		# 3.440000 
+n576_nand = NAND1(n576_inv0,n574_nand) 		# 0.000000 
+n577_nand = NAND1(n575_nand,n576_nand) 		# 0.000000 
+G1324gat = BUF(n392_nand) 		# 1.000000 
+G1325gat = BUF(n397_nand) 		# 1.000000 
+G1326gat = BUF(n402_nand) 		# 1.000000 
+G1327gat = BUF(n407_nand) 		# 1.000000 
+G1328gat = BUF(n415_nand) 		# 0.000000 
+G1329gat = BUF(n420_nand) 		# 0.000000 
+G1330gat = BUF(n425_nand) 		# 0.000000 
+G1331gat = BUF(n430_nand) 		# 0.000000 
+G1332gat = BUF(n439_nand) 		# 0.000000 
+G1333gat = BUF(n444_nand) 		# 0.000000 
+G1334gat = BUF(n449_nand) 		# 0.000000 
+G1335gat = BUF(n454_nand) 		# 0.000000 
+G1336gat = BUF(n462_nand) 		# 0.000000 
+G1337gat = BUF(n467_nand) 		# 0.000000 
+G1338gat = BUF(n472_nand) 		# 0.000000 
+G1339gat = BUF(n477_nand) 		# 0.000000 
+G1340gat = BUF(n495_nand) 		# 1.000000 
+G1341gat = BUF(n500_nand) 		# 1.000000 
+G1342gat = BUF(n505_nand) 		# 1.000000 
+G1343gat = BUF(n510_nand) 		# 1.000000 
+G1344gat = BUF(n517_nand) 		# 0.000000 
+G1345gat = BUF(n522_nand) 		# 0.000000 
+G1346gat = BUF(n527_nand) 		# 0.000000 
+G1347gat = BUF(n532_nand) 		# 0.000000 
+G1348gat = BUF(n540_nand) 		# 0.000000 
+G1349gat = BUF(n545_nand) 		# 0.000000 
+G1350gat = BUF(n550_nand) 		# 0.000000 
+G1351gat = BUF(n555_nand) 		# 0.000000 
+G1352gat = BUF(n562_nand) 		# 0.000000 
+G1353gat = BUF(n567_nand) 		# 0.000000 
+G1354gat = BUF(n572_nand) 		# 0.000000 
+G1355gat = BUF(n577_nand) 		# 0.000000 
