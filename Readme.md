@@ -1,5 +1,3 @@
-# Logic Synthesis and Verification HW2
-
 # Programming ABC
 ## Add file
 - src/testC/module.make
