@@ -14,7 +14,7 @@
 - Input files: pa2.lib(cell lib), filename.blif(network)
 - Output file: filename.blif.mbench(optimize netlist)
 
-# Steps of hw2
+# Steps
 1. Read ../PA2/pa2.lib (cell lib)
 2. Read network with abc (filename.blif)
 3. Strash network to AIG format with abc
@@ -79,7 +79,7 @@ PA2/
 cd abc
 make
 ```
-# Run Code
+# Execute
 
 1. Use abc command with one input network: (output file with save at abc/filename.blif.mbench)
 ```
