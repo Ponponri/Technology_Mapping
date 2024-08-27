@@ -9,12 +9,12 @@
 - Makefile
 - src/base/main/mainInit.c
 
-# Target
+## Target
 - Implement technology mapping with abc and create addition command on it.
 - Input files: pa2.lib(cell lib), filename.blif(network)
 - Output file: filename.blif.mbench(optimize netlist)
 
-# Steps
+## Steps
 1. Read ../PA2/pa2.lib (cell lib)
 2. Read network with abc (filename.blif)
 3. Strash network to AIG format with abc
@@ -26,13 +26,13 @@
 9. Check is valid or not (slack >=0 -> valid)
 10. Save initial delay, original power, optimize power, and netlist to filename.blif.mbench  
 
-# Environment
+## Environment
 - Ubuntu 
 - gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
 - g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
 
 
-# Folder Architecture
+## Folder Architecture
 - Need to put PA2 and abc in same folder.
 - If you want to change input cell lib(like pa2.lib), you need to modify the code in abc/src/base/testC/testc.h ( #define LIB_NAME "../PA2/pa2.lib" )
 ```
@@ -74,12 +74,12 @@ PA2/
         c7552.blif
 
 ```
-# Compile Project
+## Compile Project
 ```
 cd abc
 make
 ```
-# Execute
+## Execute
 
 1. Use abc command with one input network: (output file with save at abc/filename.blif.mbench)
 ```
@@ -96,7 +96,7 @@ quit
 cd abc
 ./run_all.sh {input folder} # ex: ./run_all.sh ../PA2/ISCAS85/
 ```
-# Results
+## Results
 1. abc command mode
 
     c880.blif
